@@ -4,6 +4,7 @@ $files = [
     'patnactka' => ['file' => __DIR__ . '/patnactka.html', 'name' => 'Patnáctka'],
     'poslove' => ['file' => __DIR__ . '/poslove.html', 'name' => 'Poslové'],
     'rozhodnuti' => ['file' => __DIR__ . '/rozhodnuti.html', 'name' => 'Rozhodnutí'],
+    'myty' => ['file' => __DIR__ . '/myty.html', 'name' => 'Mýty'],
     'hody_a_dovednosti' => ['file' => __DIR__ . '/hody_a_dovednosti.html', 'name' => 'Hody a dovednosti'],
 ];
 if ($_SERVER['QUERY_STRING'] && array_key_exists($_SERVER['QUERY_STRING'], $files)) {
